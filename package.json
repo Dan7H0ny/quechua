@@ -2,7 +2,7 @@
   "name": "diccionario-quechua",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://dan7h0ny.github.io/pag_quechua",
+  "homepage": "https://dan7h0ny.github.io/quechua",
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
