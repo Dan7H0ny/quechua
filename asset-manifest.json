@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/quechua/static/js/main.6c0fc8df.js",
+    "main.js": "/quechua/static/js/main.b33a9edb.js",
     "index.html": "/quechua/index.html",
-    "main.6c0fc8df.js.map": "/quechua/static/js/main.6c0fc8df.js.map"
+    "main.b33a9edb.js.map": "/quechua/static/js/main.b33a9edb.js.map"
   },
   "entrypoints": [
-    "static/js/main.6c0fc8df.js"
+    "static/js/main.b33a9edb.js"
   ]
 }
