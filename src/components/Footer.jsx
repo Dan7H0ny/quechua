@@ -1,13 +1,38 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
 import WiphalaBar from './WiphalaBar';
+import logoHoja from '../image/images.jpg';
 
 export default function Footer() {
   return (
     <Box component="footer" sx={{ background: '#1A0B00', py: 5, px: '6%', textAlign: 'center' }}>
-      <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 2, mb: 2.5 }}>
-        <Typography sx={{ fontSize: '2.2rem' }}>🌿</Typography>
-        <Typography sx={{ fontFamily: "'Cinzel Decorative', serif", fontSize: '0.95rem', color: '#F4A453' }}>
+      <Box
+        sx={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          gap: 2,
+          mb: 2.5,
+        }}
+      >
+        <Box
+          component="img"
+          src={logoHoja}
+          alt="Logo Quechua"
+          sx={{
+            width: 45,
+            height: 45,
+            objectFit: 'contain',
+          }}
+        />
+
+        <Typography
+          sx={{
+            fontFamily: "'Cinzel Decorative', serif",
+            fontSize: '0.95rem',
+            color: '#F4A453',
+          }}
+        >
           Diccionario Quechua · ESFM Simón Rodríguez
         </Typography>
       </Box>

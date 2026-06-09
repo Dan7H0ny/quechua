@@ -6,6 +6,7 @@ import {
 import MenuIcon from '@mui/icons-material/Menu';
 import { useTheme } from '@mui/material/styles';
 import WiphalaBar from './WiphalaBar';
+import logoHoja from '../image/images.jpg';
 
 const links = [
   { label: 'App',       href: '#features'  },
@@ -43,12 +44,29 @@ export default function Navbar() {
             onClick={(e) => { e.preventDefault(); handleNav('#hero'); }}
             sx={{ display: 'flex', alignItems: 'center', gap: 1.5, textDecoration: 'none' }}
           >
-            <Box sx={{
-              width: 42, height: 42, borderRadius: '50%',
-              background: 'rgba(255,255,255,0.15)',
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-              fontSize: '1.4rem',
-            }}>🌿</Box>
+            <Box
+              sx={{
+                width: 42,
+                height: 42,
+                borderRadius: '50%',
+                background: 'rgba(255,255,255,0.15)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                overflow: 'hidden',
+              }}
+            >
+              <Box
+                component="img"
+                src={logoHoja}
+                alt="Logo Quechua"
+                sx={{
+                  width: '80%',
+                  height: '80%',
+                  objectFit: 'contain',
+                }}
+              />
+            </Box>
             <Box>
               <Typography sx={{ fontFamily: "'Cinzel Decorative', serif", fontSize: '0.82rem', color: '#FDF6EC', lineHeight: 1.2 }}>
                 Diccionario

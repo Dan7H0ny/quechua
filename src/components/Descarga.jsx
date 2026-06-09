@@ -41,7 +41,8 @@ export default function Descarga() {
                 </Box>
               </Button>
               <Button
-                variant="block"
+                variant="contained"
+                disabled
                 startIcon={<AppleIcon />}
                 href="#"
                 sx={{

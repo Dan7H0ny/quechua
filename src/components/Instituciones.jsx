@@ -1,10 +1,58 @@
 import React from 'react';
 import { Box, Typography, Grid } from '@mui/material';
 
+import logoHoja from '../image/images.jpg';
+import logoEducacion from '../image/educacion.jpg';
+import logoBolivia from '../image/bolivia.jpg';
 const instituciones = [
-  { icon: '🌿', label: 'ESFM Simón Rodríguez' },
-  { icon: '🇧🇴', label: 'Estado Plurinacional de Bolivia' },
-  { icon: '🏛️', label: 'Ministerio de Educación Bolivia' },
+  {
+    icon: (
+      <Box
+        component="img"
+        src={logoHoja}
+        alt="ESFM Simón Rodríguez"
+        sx={{
+          width: 50,
+          height: 50,
+          borderRadius: '50%',
+          objectFit: 'cover',
+        }}
+      />
+    ),
+    label: 'ESFM Simón Rodríguez',
+  },
+  {
+    icon: (
+      <Box
+        component="img"
+        src={logoBolivia}
+        alt="Estado Plurinacional de Bolivia"
+        sx={{
+          width: 50,
+          height: 50,
+          borderRadius: '50%',
+          objectFit: 'cover',
+        }}
+      />
+    ),
+    label: 'Estado Plurinacional de Bolivia',
+  },
+  {
+    icon: (
+      <Box
+        component="img"
+        src={logoEducacion}
+        alt="Ministerio de Educación Bolivia"
+        sx={{
+          width: 50,
+          height: 50,
+          borderRadius: '50%',
+          objectFit: 'cover',
+        }}
+      />
+    ),
+    label: 'Ministerio de Educación Bolivia',
+  },
 ];
 
 export default function Instituciones() {

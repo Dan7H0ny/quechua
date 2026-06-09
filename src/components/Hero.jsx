@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Typography, Button, Chip } from '@mui/material';
 import DownloadIcon from '@mui/icons-material/Download';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
+import logoHoja from '../image/images.jpg';
 
 export default function Hero() {
   const scrollTo = (id) => document.querySelector(id)?.scrollIntoView({ behavior: 'smooth' });
@@ -54,8 +55,28 @@ export default function Hero() {
         />
 
         {/* Logo icon */}
-        <Box sx={{ fontSize: '5rem', mb: 2, lineHeight: 1, filter: 'drop-shadow(0 8px 24px rgba(196,92,0,0.3))' }}>
-          🌿
+        <Box
+          sx={{
+            width: 120,
+            height: 120,
+            mx: 'auto',
+            mb: 2,
+            borderRadius: '50%',
+            overflow: 'hidden',
+            boxShadow: '0 8px 24px rgba(196,92,0,0.3)',
+            border: '3px solid rgba(244,164,83,0.4)',
+          }}
+        >
+          <Box
+            component="img"
+            src={logoHoja}
+            alt="Logo Quechua"
+            sx={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+            }}
+          />
         </Box>
 
         {/* Title */}
