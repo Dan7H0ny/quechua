@@ -16,16 +16,13 @@ export default function Footer() {
 
       <Box sx={{ fontSize: '0.82rem', color: 'rgba(255,246,236,0.5)', lineHeight: 1.9 }}>
         <Typography component="p" sx={{ fontSize: 'inherit', color: 'inherit' }}>
-          © 2025 <strong style={{ color: '#F4A453' }}>Diccionario Quechua App</strong> — Todos los derechos reservados.
+          © 2026 <strong style={{ color: '#F4A453' }}>Diccionario Quechua App</strong> — Todos los derechos reservados.
         </Typography>
         <Typography component="p" sx={{ fontSize: 'inherit', color: 'inherit' }}>
-          Desarrollado por la <strong style={{ color: '#F4A453' }}>Escuela Superior de Formación de Maestros Simón Rodríguez</strong>
+          Desarrollado por <strong style={{ color: '#F4A453' }}>Cristhian Eddy Guardia Alcocer y Antony Alcaro Mamani Hinojosa</strong>
         </Typography>
         <Typography component="p" sx={{ fontSize: 'inherit', color: 'inherit' }}>
           Cochabamba — Bolivia · <em>Runasimi Kamachiq</em>
-        </Typography>
-        <Typography component="p" sx={{ fontSize: '0.75rem', color: 'inherit', mt: 1 }}>
-          Diseño &amp; Desarrollo: Estudiantes ESFM · Cochabamba, Bolivia
         </Typography>
       </Box>
 

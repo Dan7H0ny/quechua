@@ -21,7 +21,7 @@ export default function Descarga() {
               Lleva el quechua<br />en tu bolsillo
             </Typography>
             <Typography sx={{ fontSize: '1rem', lineHeight: 1.75, color: '#7a5a3a', mb: 4 }}>
-              Disponible para Android e iOS. Descarga la app del Diccionario Quechua desarrollada por la ESFM Simón Rodríguez — Cochabamba, Bolivia. ¡Totalmente gratis!
+              Disponible para Android. Descarga la app del Diccionario Quechua desarrollada porlos estudaintes de la ESFM Simón Rodríguez (Cercado), Bolivia. Estudiantes: Antony Mamani y Cristhian Guardia. Descarga la aplicación ¡Totalmente gratis!
             </Typography>
             <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>
               <Button
@@ -41,7 +41,7 @@ export default function Descarga() {
                 </Box>
               </Button>
               <Button
-                variant="contained"
+                variant="block"
                 startIcon={<AppleIcon />}
                 href="#"
                 sx={{
@@ -52,7 +52,7 @@ export default function Descarga() {
                 }}
               >
                 <Box>
-                  <Typography sx={{ fontSize: '0.65rem', opacity: 0.7, lineHeight: 1 }}>Disponible en</Typography>
+                  <Typography sx={{ fontSize: '0.65rem', opacity: 0.7, lineHeight: 1 }}>Proximamente en</Typography>
                   <Typography sx={{ fontWeight: 700, fontSize: '0.9rem', lineHeight: 1.3 }}>App Store</Typography>
                 </Box>
               </Button>

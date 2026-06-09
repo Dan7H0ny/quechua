@@ -3,11 +3,11 @@ import { Box, Typography, Card, CardContent, Grid } from '@mui/material';
 
 const features = [
   { icon: '📖', title: 'Diccionario Completo',   desc: 'Miles de palabras quechuas con traducción al español, pronunciación y ejemplos de uso en contexto cultural.' },
-  { icon: '🎙️', title: 'Audio Nativo',           desc: 'Escucha la pronunciación auténtica de cada palabra grabada por hablantes nativos de Bolivia.' },
-  { icon: '📚', title: 'Frases Cotidianas',       desc: 'Aprende expresiones del día a día: saludos, números, familia, naturaleza y mucho más.' },
+  { icon: '🎙️', title: 'Audio Interactivo',           desc: 'Escucha la pronunciación de cada palabra grabada por un estudiante de lengua materna Quechua .' },
+  { icon: '📚', title: 'Categorias de las áreas educativas',       desc: 'Las categorias que tenemos son: General, Educación, Tecnología, Medicina, Biología, Artes Plásticas, Educación Especial, Matemáticas, Ciencias Sociales, Música y más...' },
   { icon: '🔍', title: 'Búsqueda Inteligente',    desc: 'Encuentra palabras aunque no sepas cómo se escriben, con sugerencias en tiempo real.' },
-  { icon: '🏆', title: 'Modo Quiz',               desc: 'Pon a prueba tus conocimientos con juegos de vocabulario y sigue tu progreso.' },
-  { icon: '🌐', title: 'Sin Internet',            desc: 'Accede al diccionario completo sin conexión. Aprende quechua en cualquier lugar de Bolivia.' },
+  { icon: '📀', title: 'Actualización constante',               desc: 'Pon a prueba tus conocimientos con juegos de vocabulario y sigue tu progreso.' },
+  { icon: '🌐', title: 'Sin Internet',            desc: 'Accede al diccionario completo sin conexión, una vez cargado. Aprende quechua en cualquier lugar de Bolivia.' },
 ];
 
 export default function Features() {

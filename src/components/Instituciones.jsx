@@ -5,7 +5,6 @@ const instituciones = [
   { icon: '🌿', label: 'ESFM Simón Rodríguez' },
   { icon: '🇧🇴', label: 'Estado Plurinacional de Bolivia' },
   { icon: '🏛️', label: 'Ministerio de Educación Bolivia' },
-  { icon: '🌾', label: 'Cochabamba — Capital Cultural' },
 ];
 
 export default function Instituciones() {
@@ -18,7 +17,7 @@ export default function Instituciones() {
         Respaldado por
       </Typography>
       <Typography variant="h2" sx={{ fontSize: { xs: '1.5rem', md: '2.2rem' }, color: '#C45C00', mb: 6, lineHeight: 1.2 }}>
-        Orgullo Boliviano
+        Lic. Richard Morales
       </Typography>
 
       <Grid container spacing={4} justifyContent="center" sx={{ maxWidth: 800, mx: 'auto' }}>

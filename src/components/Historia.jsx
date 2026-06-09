@@ -55,7 +55,7 @@ export default function Historia() {
               }}
             >
               <Typography sx={{ fontFamily: "'Playfair Display', serif", fontStyle: 'italic', fontSize: '1.05rem', color: '#FDF6EC' }}>
-                "Mana rimaspaqa, mana kawsakunchu." — Sin hablar nuestra lengua, no vivimos plenamente.
+                "Mana runasimita rimaspaqa, mana allin kawsakunchu." — Sin hablar nuestra lengua, no vivimos plenamente.
               </Typography>
             </Paper>
           </Grid>
